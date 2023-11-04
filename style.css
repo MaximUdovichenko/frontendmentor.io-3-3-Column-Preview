@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.container {
+    display: flex;
+    width: 860px;
+}
+
+.container__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 480px;
+}
+
+.first {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+    padding: 40px;
+}
+
+.second {
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+}
+
+.third {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+    padding: 40px;
+}
+
+.title {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.paragraf {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 70px;
+}
+
+.btn {
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 40px;
+    border: 2px solid white;
+    padding: 10px;
+    margin-top: 6%;
+}
+
+.first .btn:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+
+.second .btn:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+
+.third .btn:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+}
+
+.first .btn {
+    color: hsl(31, 77%, 52%);
+}
+
+.second .btn {
+    color: hsl(184, 100%, 22%);
+}
+
+.third .btn {
+    color: hsl(179, 100%, 13%);
+}
+
